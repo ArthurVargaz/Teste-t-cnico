@@ -26,7 +26,11 @@ CREATE TABLE produtos (
 );
 
 CREATE TABLE vendas(
-
-    
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produto_id INT,
+    quantidade INT,
+    valor_total FLOAT,
+    data_venda TIMESTAMP,
+    FOREIGN KEY (produto_id) REFERENCES produtos(id)
 
 )
