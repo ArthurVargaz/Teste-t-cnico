@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "br.com.gerenciamento.aplicacao.Main",
+            "projectName": "TESTE_cd1024d4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "br.com.gerenciamento.aplicacao.Main",
+            "projectName": "TESTE_13a652a2",
+            "classPaths": [
+                "bin",
+                "lib/mysql-connector-j-9.3.0.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "ConnectionFactory",
+            "request": "launch",
+            "mainClass": "br.com.gerenciamento.factory.ConnectionFactory",
+            "projectName": "TESTE_13a652a2",
+            "classPaths": [
+                "bin",
+                "lib/mysql-connector-j-9.3.0.jar"
+            ]
+        }
+    ]
+}
